@@ -1,7 +1,7 @@
 {
   "name": "hubot-thruk",
   "description": "Queries Thruk for informations about Nagios status",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Benjamin Dos Santos",
   "license": "MIT",
 
