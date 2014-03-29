@@ -70,15 +70,9 @@ module.exports = (robot) ->
             when 1 then down += 1
             when 2 then unreachable += 1
 
-      response =  "Host => \n\n"
-      response += "up : #{up} \n"
-      response += "down : #{down}\n"
-      response += "unreachable : #{unreachable}\n"
-      response += "\n\n"
+      response =  "Host => \n"
+      response += "up : #{up} | down : #{down} | unreachable : #{unreachable}\n"
       response += "Services => \n"
-      response += "ok : #{ok}\n"
-      response += "warning : #{warning}\n"
-      response += "critical : #{critical}\n"
-      response += "unknown : #{unknown}\n"
+      response += "ok : #{ok} | warning : #{warning} | critical : #{critical} | unknown : #{unknown}"
 
       msg.send response
