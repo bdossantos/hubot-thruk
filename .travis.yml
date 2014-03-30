@@ -1,4 +1,6 @@
-nguage: node_js
+language: node_js
+before_script: "npm install --dev"
+script: "script/test"
 node_js:
     - "0.10"
 notifications:
